@@ -1,0 +1,39 @@
+<div class="CDB-infowindow CDB-infowindow--light js-infowindow">
+  <div class="CDB-infowindow-close js-close"></div>
+  <div class="CDB-infowindow-container">
+    <div class="CDB-infowindow-bg">
+      <div class="CDB-infowindow-inner">
+        <ul class="CDB-infowindow-list js-content">
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Referencia catastral</h5>
+            <h4 class="CDB-infowindow-title"><a href="{{informatio}}" target="_blank">{{reference}}</a></h4>
+          </li>
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Foto fachada </h5>
+<h4 class="CDB-infowindow-title"><a href="{{documentli}}" target="_blank"><img src={{documentli}} width="200px"/></a></h4>
+          </li>
+         
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Descripcion</h5>
+            <h4 class="CDB-infowindow-title">{{name_infor}}</h4>
+          </li>
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Tipo local</h5>
+            <h4 class="CDB-infowindow-title">{{tipo_local}}</h4>
+          </li>
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Año de construccion</h5>
+            <h4 class="CDB-infowindow-title">{{beginning}}</h4>
+          </li>
+          <li class="CDB-infowindow-listItem">
+              <h5 class="CDB-infowindow-subtitle">Consumo kwh al año</h5>
+            <h4 class="CDB-infowindow-title">{{consumo_w}}</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="CDB-hook">
+      <div class="CDB-hook-inner"></div>
+    </div>
+  </div>
+</div>
